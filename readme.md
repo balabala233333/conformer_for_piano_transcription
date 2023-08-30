@@ -1,6 +1,6 @@
 本github当中主要用于复现论文当中的实验数据,本文已将所有的实验结果excel放在此github中:
 
-想要运行您需要一根tesla A40，并且下载对应的数据集:
+想要运行您需要一根tesla A40，还有至少1个T的硬盘，并且通过如下指令下载对应的数据集:
 
 ```bash
 mkdir workspace
@@ -42,4 +42,4 @@ python note_model_test.py
 python limit_note_time
 ```
 
-运行完之后你会获得
+运行完之后你会获得res-4、res-5、res-6、res-7、res-8、res-9、res-10这几个excel。res-i表示给定音符可能长度i的结果
